@@ -1,0 +1,46 @@
+#mapid {
+	height: 500px;
+}
+
+body {
+	background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/90.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#list_outdoor {
+	max-height: 500px;
+	margin-bottom: 10px;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+#weather {
+	background-color: #f5cbeb;
+	padding: 15px 0px 15px 0px;
+}
+
+.container {
+	background-color: rgba(192, 192, 192, 0.65);
+	padding: 25px;
+}
+
+#list_outdoor {
+	background-color: rgba(192, 192, 192, 0.8);
+	padding: 5px;
+}
+
+.list-group-item-success {
+	color: #164f23;
+	background-color: #f7a1e3;
+}
+
+.btn-info {
+	color: #fff;
+	background-color: #1bc9e5;
+	border-color: #17a2b8;
+}
